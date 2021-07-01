@@ -1,0 +1,22 @@
+
+@use 'custom';
+
+
+
+// Import components
+
+@use 'components/animations';
+@use 'components/button';
+@use 'components/mixins';
+@use 'components/typography';
+
+// Importing the sections
+
+@use 'sections/companies';
+@use 'sections/contact-form';
+@use 'sections/footer';
+@use 'sections/intro-section';
+@use 'sections/navbar';
+@use 'sections/services';
+@use 'sections/testiomonials';
+@use 'sections/portfolio.scss';
