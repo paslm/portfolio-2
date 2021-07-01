@@ -10790,6 +10790,42 @@ textarea.form-control-lg {
   text-transform: none;
 }
 
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: #6f42c1;
+}
+
+.heading-line::after {
+  padding-top: 0.5rem;
+  content: "";
+  width: 2rem;
+  height: 0.2rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: #6f42c1;
+}
+
+.tools {
+  padding: 0 0 5rem 0;
+}
+.tools_logo-box {
+  max-width: 100%;
+  height: 3rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+  position: relative;
+}
+.tools_logo-box img {
+  height: 100%;
+  display: inline-block;
+}
+
 .intro-section {
   background: linear-gradient(to right, rgba(111, 66, 193, 0.95), rgba(102, 16, 242, 0.95));
   padding: 10rem 0 0 0;

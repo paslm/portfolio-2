@@ -1,5 +1,5 @@
 @use '../custom' as *;
-
+@use '../components/mixins' as *;
 
 .display-2 {
     margin-bottom: 1rem;
@@ -19,4 +19,26 @@
         margin-top: 1.2rem;
         text-transform: none;
     }
+}
+
+// HEADING LINE
+
+.heading-line::before {
+    content: "";
+    width: 10rem;
+    height: 0.1rem;
+    display: block;
+    margin: 0 auto;
+    background-color: $primary ;
+}
+.heading-line::after {
+    padding-top: 0.5rem;
+    content: "";
+    width: 2rem;
+    height: 0.2rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem ;
+    background-color: $primary;
+
 }

@@ -1,0 +1,38 @@
+# Query: companies
+# ContextLines: 1
+
+9 results - 2 files
+
+index.html:
+   78      <!-- TOOLS I USE SECTION -->
+   79:     <section id="tools" class="tools">
+   80        <div class="container">
+
+   89            <div class="col-md-4">
+   90:             <div class="companies_log-box"><img src="../portfolio-2/assets/images/tools/bootsrap-logo.png" alt="Logos for tools that I use" class="img-fluid"></div>
+   91            </div>
+
+   94            <div class="col-md-4">
+   95:             <div class="companies_log-box"><img src="../portfolio-2/assets/images/tools/rails-logo.png" alt="Logos for tools that I use" class="img-fluid"></div>
+   96            </div>
+
+   99            <div class="col-md-4">
+  100:             <div class="companies_log-box"><img src="../portfolio-2/assets/images/tools/ruby-logo.png" alt="Logos for tools that I use" class="img-fluid"></div>
+  101            </div>
+
+  104            <div class="col-md-4">
+  105:             <div class="companies_log-box"><img src="../portfolio-2/assets/images/tools/javascript-logo.png" alt="Logos for tools that I use" class="img-fluid"></div>
+  106            </div>
+
+  109            <div class="col-md-4">
+  110:             <div class="companies_log-box"><img src="../portfolio-2/assets/images/tools/Octocat-logo.png" alt="Logos for tools that I use" class="img-fluid"></div>
+  111            </div>
+
+  114            <div class="col-md-4">
+  115:             <div class="companies_log-box"><img src="../portfolio-2/assets/images/tools/sass-logo.png" alt="Logos for tools that I use" class="img-fluid"></div>
+  116            </div>
+
+scss/style.scss:
+  14  
+  15: @use 'sections/tools';
+  16  @use 'sections/contact-form';
