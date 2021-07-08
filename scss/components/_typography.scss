@@ -42,3 +42,16 @@
     background-color: $primary;
 
 }
+
+.tool-name {
+    text-transform: capitalize;
+    color: $primary;
+    font-size: 1rem;
+    padding-top: 0.75rem;
+    border: 0.5px solid green;
+
+}
+
+.title {
+    color: $primary;
+}
