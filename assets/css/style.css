@@ -10880,6 +10880,16 @@ textarea.form-control-lg {
   text-transform: capitalize;
 }
 
+.footer {
+  padding-top: 1rem;
+  background-color: #151414;
+}
+
+.social-media .fab {
+  font-size: 2.5rem !important;
+  margin-left: 1.5rem;
+}
+
 .intro-section {
   background: linear-gradient(to right, rgba(111, 66, 193, 0.95), rgba(102, 16, 242, 0.95));
   padding: 10rem 0 0 0;
@@ -10887,6 +10897,9 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+.intros .custom-text {
+  font-size: 2rem;
+}
 .intros .video-box {
   position: relative;
 }
@@ -10921,6 +10934,9 @@ textarea.form-control-lg {
 
 .menu {
   background: linear-gradient(to right, rgba(111, 66, 193, 0.95), rgba(102, 16, 242, 0.95));
+}
+.menu .logo img {
+  width: 8rem;
 }
 .menu li {
   padding: 0 0.7 rem;
