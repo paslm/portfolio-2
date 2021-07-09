@@ -3,6 +3,13 @@
 
 .menu {
     @include gradient;
+    
+    .logo {
+        
+        img{
+            width: 8rem;
+        }
+    }
 
     li {
         padding: 0 0.7 rem;
